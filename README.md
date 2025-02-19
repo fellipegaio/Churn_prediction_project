@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 
-## 📌 Project Overview  
+## 📌 Project Overview
 
 This project focuses on predicting **customer churn** for a telecommunications provider. The goal is to **identify customers at risk of leaving** so the company can offer them promotional incentives and improve retention.  
 
