@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on predicting **customer churn** for a telecommunications provider. The goal is to **identify customers at risk of leaving** so the company can offer them promotional incentives and improve retention.  
 
@@ -8,7 +8,7 @@ The dataset includes information on **customer contracts, personal details, inte
 
 ---
 
-## 🏢 Business Context  
+## Business Context  
 
 The telecom company provides **landline telephony and internet services**, offering both DSL and fiber optic connections. Additional services include:  
 
@@ -21,7 +21,7 @@ Customers can choose between **monthly, 1-year, or 2-year contracts** with diffe
 
 ---
 
-## 📊 Dataset  
+## Dataset  
 
 The dataset consists of **four CSV files**, each containing different aspects of customer data:  
 
@@ -34,7 +34,7 @@ All files are linked by a unique **`customerID`**, and the churn status is deter
 
 ---
 
-## 🚀 Approach  
+## Approach  
 
 ### **1️⃣ Data Preparation**  
 ✔ Merged all datasets into a **single DataFrame**  
@@ -55,7 +55,7 @@ All files are linked by a unique **`customerID`**, and the churn status is deter
 
 ---
 
-## 🏆 Model Results  
+## Model Results  
 
 | Model           | AUC-ROC | Accuracy |
 |----------------|---------|----------|
@@ -63,14 +63,14 @@ All files are linked by a unique **`customerID`**, and the churn status is deter
 | **CatBoost** | 0.86 | 0.74 |
 | **LightGBM** | 0.86 | 0.80 |
 
-💡 **Why LightGBM?**  
+**Why LightGBM?**  
 - **Same AUC-ROC as other models**, but more computationally efficient  
 - **Handles large datasets well** and is faster than Random Forest  
 - **Balances performance & scalability**, making it the best choice  
 
 ---
 
-## 🔑 Key Insights  
+## Key Insights  
 
 - **Who is most likely to churn?**  
   ✅ **Senior citizens (83.7%)**  
@@ -82,7 +82,7 @@ All files are linked by a unique **`customerID`**, and the churn status is deter
 
 ---
 
-## 🛠 Tech Stack  
+## Tech Stack  
 
 - **Programming**: Python (`pandas`, `numpy`, `scikit-learn`)  
 - **Machine Learning**: `RandomForestClassifier`, `GradientBoostingClassifier`, `CatBoostClassifier`, `LightGBM`  
@@ -91,8 +91,8 @@ All files are linked by a unique **`customerID`**, and the churn status is deter
 
 ---
 
-## 🤝 Contributions & Feedback  
+## Contributions & Feedback  
 
 If you have suggestions or improvements, feel free to reach out!  
 
-📩 Contact: ofellipegaio@gmail.com | LinkedIn: https://www.linkedin.com/in/fellipegaio  
+Contact: ofellipegaio@gmail.com | LinkedIn: https://www.linkedin.com/in/fellipegaio  
